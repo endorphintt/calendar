@@ -1,0 +1,54 @@
+.numbers{
+    height: 100%;
+}
+
+.numbers__week{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    height: 14.28%;
+    text-transform: uppercase;
+}
+
+.numbers__items{
+    display: flex;
+    flex-wrap: wrap;
+    height: 85%;
+}
+
+.week__name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: rgb(118, 124, 124);
+}
+
+.numbers__item{
+    height: 14.28%;
+    width: 14.28%;
+    border: none;
+    padding: none;
+    margin: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+.numbers__item_active{
+    height: 14.28%;
+    width: 14.28%;
+    border: none;
+    padding: none;
+    margin: none;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 20px;
+    font-size: 16px;
+}

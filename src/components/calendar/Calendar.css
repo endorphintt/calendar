@@ -1,0 +1,82 @@
+.calendar{
+    width: 440px;
+    height: 440px;
+    background-color: rgb(43, 40, 40);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.calendar__header{
+    padding-left: 30px;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    cursor: pointer;
+}
+
+.calendar__menu{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.cancel__container{
+    display: flex;
+    justify-content: end;
+    margin: 0;
+    padding: 0;
+    height: 10%;
+}
+
+.cancel{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(127, 127, 147);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menuChange{
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    color: blue;
+    margin: 0 10px 0 10px;
+    font-size: 20px;
+}
+
+.cancel img, .menuChange img{
+    height: 50%;
+    width: 50%;
+}
+
+.go__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+
+.go{
+    border: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    width: 130px;
+    height: 100%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    color: white;
+}
